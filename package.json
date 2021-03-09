@@ -1,0 +1,40 @@
+{
+  "name": "vertical-stepper-nav",
+  "version": "1.0.0",
+  "description": "A simple to use vertical stepper component for your React projects!",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyankark/vertical-stepper-nav.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyankark/vertical-stepper-nav/issues"
+  },
+  "homepage": "https://github.com/priyankark/vertical-stepper-nav#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rollup": "^2.41.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.2.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
