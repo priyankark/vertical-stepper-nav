@@ -1,5 +1,7 @@
-import * as React from 'react'; 
 import {Step} from './components/Step';
+import {Separator} from './components/Separator';
+import {StepperNav} from './components/StepperNav';
 
-export const App = ()=> <div>Hello</div>
-export const StepNav = ()=> <Step/>;
+export {Step, Separator, StepperNav};
+
+
