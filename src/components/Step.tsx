@@ -4,7 +4,7 @@ interface IStep {
     stepContent: () => JSX.Element;
     statusColor?: string;
     statusCircleSize?: number;
-    onClickHandler?: (event?: React.MouseEvent<HTMLDivElement>) => void
+    onClickHandler?: (event?: React.MouseEvent<HTMLDivElement>) => void | undefined;
 }
 
 const buttonContainerStyles: CSS.Properties = {

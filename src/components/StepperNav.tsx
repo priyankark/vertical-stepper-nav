@@ -6,7 +6,7 @@ interface IStepDescription {
     stepContent: () => JSX.Element,
     stepStateColor?: string,
     stepStatusCircleSize?: number,
-    onClickHandler?: () => void
+    onClickHandler?: () => void | undefined
 }
 
 interface IStepperNavProps {
