@@ -27,7 +27,7 @@ export const StepperNav = (props: IStepperNavProps): JSX.Element => {
             />
             {
                 index !== props.steps.length - 1 &&
-                <div style={{ paddingLeft: 7, marginTop: 0, paddingTop: 0 }}>
+                <div style={{ paddingLeft: 7, paddingTop: 0 }}>
                     <Separator />
                 </div>
             }
