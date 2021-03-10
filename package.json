@@ -1,7 +1,7 @@
 {
   "name": "vertical-stepper-nav",
   "version": "1.0.0",
-  "description": "A simple to use vertical stepper component for your React projects!",
+  "description": "An easy to use vertical stepper component for your React projects! Currently W.I.P. Contributions/Feedback accepted!",
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/priyankark/vertical-stepper-nav.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Priyankar Kumar",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/priyankark/vertical-stepper-nav/issues"
