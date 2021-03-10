@@ -1,6 +1,6 @@
 {
   "name": "vertical-stepper-nav",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy to use vertical stepper component for your React projects! Currently W.I.P. Contributions/Feedback accepted!",
   "main": "dist/index.js",
   "scripts": {
