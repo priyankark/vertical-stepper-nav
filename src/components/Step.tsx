@@ -11,7 +11,8 @@ const buttonContainerStyles: CSS.Properties = {
     display: 'inline-flex',
     flexWrap: 'wrap',
     gap: "12px",
-    padding: "2px"
+    padding: "2px",
+    cursor: "pointer"
 };
 
 export const Step = ({ stepContent, statusColor, statusCircleSize, onClickHandler }: IStep) => {
