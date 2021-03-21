@@ -2,14 +2,14 @@ import * as React from 'react';
 import {Step} from './Step';
 import {Separator} from './Separator';
 
-interface IStepDescription {
+export interface IStepDescription {
   stepContent: () => JSX.Element;
   stepStateColor?: string;
   stepStatusCircleSize?: number;
   onClickHandler?: () => void | undefined;
 }
 
-interface IStepperNavProps {
+export interface IStepperNavProps {
   steps: IStepDescription[];
 }
 
@@ -31,9 +31,7 @@ export const StepperNav = (props: IStepperNavProps): JSX.Element => {
             {index !== props.steps.length - 1 && (
               <div
                 style={{
-                  paddingLeft: `${(stepStatusCircleSize ?? 16) / 2}px`,
-                  marginTop: 0,
-                  paddingTop: 0,
+                  paddingLeft: `${(stepStatusCircleSize ?? 16) / 2 + 1}px`,
                 }}>
                 <Separator />
               </div>

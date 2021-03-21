@@ -7,7 +7,7 @@ const separatorStyles = {
   background: '#E1E1E1',
 };
 
-interface ISeparator {
+export interface ISeparator {
   height?: string | number;
 }
 
