@@ -20,7 +20,7 @@ This package exposes 3 components:
   * stepStatusCircleSize: size of the circle to show in that step
   * stepStateColor: color of the circle 
   * onClickHandler: a callback that needs to be called when a user clicks on this step. This is optional.
-* **Step and Separator: ** These components are internally used by StepperNav component and if you wish to build your own stepper, you can use these components.
+* **Step and Separator:** These components are internally used by StepperNav component and if you wish to build your own stepper, you can use these components.
 
 #### Support
 
