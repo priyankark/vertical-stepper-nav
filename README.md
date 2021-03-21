@@ -15,7 +15,7 @@ Use the example from [CodeSandbox](https://codesandbox.io/s/recursing-morse-3h7o
 
 This package exposes 3 components:
 
-* **StepperNav:** This takes a single prop called steps. Steps is an array which will take following elements:
+* **StepperNav:** This takes a single prop called steps. Steps is a list which will take following elements:
   * stepContent: A JSX Element which needs to be shown next to the circle
   * stepStatusCircleSize: size of the circle to show in that step
   * stepStateColor: color of the circle 
