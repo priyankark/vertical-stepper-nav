@@ -29,7 +29,12 @@ export const StepperNav = (props: IStepperNavProps): JSX.Element => {
               statusCircleSize={stepStatusCircleSize}
             />
             {index !== props.steps.length - 1 && (
-              <div style={{paddingLeft: 7, paddingTop: 0}}>
+              <div
+                style={{
+                  paddingLeft: `${(stepStatusCircleSize ?? 16) / 2}px`,
+                  marginTop: 0,
+                  paddingTop: 0,
+                }}>
                 <Separator />
               </div>
             )}
