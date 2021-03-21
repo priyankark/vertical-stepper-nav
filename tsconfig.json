@@ -19,6 +19,6 @@
       "noUnusedLocals": true,
       "noUnusedParameters": true
     },
-    "include": ["src"],
+    "include": ["src", "jest.config.js"],
     "exclude": ["node_modules", "dist", "rollup.config.js"]
   }

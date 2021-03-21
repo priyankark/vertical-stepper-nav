@@ -1,11 +1,12 @@
 {
   "name": "vertical-stepper-nav",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An easy to use vertical stepper component for your React projects! Currently W.I.P. Contributions/Feedback accepted!",
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
+    "test": "jest --env=jsdom",
     "lint": "eslint src/**/*.{js,ts,tsx} --quiet --fix"
   },
   "peerDependencies": {
@@ -46,7 +47,11 @@
     "rollup": "^2.41.0",
     "rollup-plugin-sass": "^1.2.2",
     "rollup-plugin-typescript2": "^0.30.0",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.3",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4"
   },
   "files": [
     "dist"

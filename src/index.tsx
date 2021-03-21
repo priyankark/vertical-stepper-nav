@@ -1,5 +1,17 @@
-import {Step} from './components/Step';
-import {Separator} from './components/Separator';
-import {StepperNav} from './components/StepperNav';
+import {Step, IStep} from './components/Step';
+import {Separator, ISeparator} from './components/Separator';
+import {
+  StepperNav,
+  IStepDescription,
+  IStepperNavProps,
+} from './components/StepperNav';
 
-export {Step, Separator, StepperNav};
+export {
+  Step,
+  Separator,
+  StepperNav,
+  IStep,
+  ISeparator,
+  IStepDescription,
+  IStepperNavProps,
+};

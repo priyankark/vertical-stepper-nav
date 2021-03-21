@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as CSS from 'csstype';
-interface IStep {
+export interface IStep {
   stepContent: () => JSX.Element;
   statusColor?: string;
   statusCircleSize?: number;

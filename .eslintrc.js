@@ -31,5 +31,6 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'react-hooks'],
   rules: {
     'no-use-before-define': 'off',
+    'react/display-name': 'off',
   },
 };
