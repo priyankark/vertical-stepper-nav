@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StepperNav tests basic snapshot 1`] = `
+<DocumentFragment>
+  <nav>
+    <div>
+      <div
+        role="button"
+        style="display: inline-flex; flex-wrap: wrap; gap: 12px; padding: 2px; cursor: pointer;"
+        tabindex="0"
+      >
+        <div>
+          <div
+            style="border-radius: 16px; width: 16px; height: 16px; border: 2px solid #e1e1e1; background: darkblue;"
+          />
+        </div>
+        <div
+          style="padding-bottom: 2px;"
+        >
+          <div
+            style="font-size: 14px;"
+          >
+            Step 1
+          </div>
+        </div>
+      </div>
+      <div
+        style="padding-left: 9px;"
+      >
+        <div
+          style="height: 5vh; width: 2px; border: 1px solid #e1e1e1; background: rgb(225, 225, 225);"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        role="button"
+        style="display: inline-flex; flex-wrap: wrap; gap: 12px; padding: 2px; cursor: pointer;"
+        tabindex="0"
+      >
+        <div>
+          <div
+            style="border-radius: 16px; width: 16px; height: 16px; border: 2px solid #e1e1e1; background: white;"
+          />
+        </div>
+        <div
+          style="padding-bottom: 2px;"
+        >
+          <div
+            style="font-size: 14px;"
+          >
+            Step 2
+          </div>
+        </div>
+      </div>
+      <div
+        style="padding-left: 9px;"
+      >
+        <div
+          style="height: 5vh; width: 2px; border: 1px solid #e1e1e1; background: rgb(225, 225, 225);"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        role="button"
+        style="display: inline-flex; flex-wrap: wrap; gap: 12px; padding: 2px; cursor: pointer;"
+        tabindex="0"
+      >
+        <div>
+          <div
+            style="border-radius: 16px; width: 16px; height: 16px; border: 2px solid #e1e1e1; background: green;"
+          />
+        </div>
+        <div
+          style="padding-bottom: 2px;"
+        >
+          <div
+            style="font-size: 14px;"
+          >
+            Step 3
+          </div>
+        </div>
+      </div>
+      <div
+        style="padding-left: 9px;"
+      >
+        <div
+          style="height: 5vh; width: 2px; border: 1px solid #e1e1e1; background: rgb(225, 225, 225);"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        role="button"
+        style="display: inline-flex; flex-wrap: wrap; gap: 12px; padding: 2px; cursor: pointer;"
+        tabindex="0"
+      >
+        <div>
+          <div
+            style="border-radius: 16px; width: 16px; height: 16px; border: 2px solid #e1e1e1; background: white;"
+          />
+        </div>
+        <div
+          style="padding-bottom: 2px;"
+        >
+          <div
+            style="font-size: 14px;"
+          >
+            Step 3
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
